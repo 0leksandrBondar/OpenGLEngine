@@ -1,0 +1,23 @@
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.so.*
+*.dylib
+
+
+# Visual Studio Code
+.vscode/
+.vs
+/out
+CMakeLists.txt.user
+
+#Clion
+.idea/
+
+# build directory
+/build
+cmake-build-debug
