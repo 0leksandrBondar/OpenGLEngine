@@ -3,8 +3,10 @@ cmake_minimum_required(VERSION 3.14)
 set(SOURCE
         ShaderProgram.h
         ShaderProgram.cpp
-        ResourceManager.cpp
+        Texture2D.h
+        Texture2D.cpp
         ResourceManager.h
+        ResourceManager.cpp
 )
 
 add_library(Render ${SOURCE})

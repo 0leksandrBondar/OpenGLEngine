@@ -1,7 +1,6 @@
 #include "ShaderProgram.h"
 
 #include <iostream>
-#include <fstream>
 
 ShaderProgram::ShaderProgram(const std::string& vertexShader, const std::string& fragmentShader)
 {
