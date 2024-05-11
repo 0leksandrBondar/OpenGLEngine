@@ -64,3 +64,8 @@ void ShaderProgram::useShader() const
 {
 	glUseProgram(_Id);
 }
+
+void ShaderProgram::setID(const std::string& name, const GLint value)
+{
+	glUniform1i(glGetUniformLocation(_Id,name.c_str()),value);
+}

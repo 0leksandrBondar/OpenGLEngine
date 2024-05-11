@@ -15,6 +15,7 @@ public:
 	~ShaderProgram();
 
 	void useShader() const;
+	void setID(const std::string& name, const GLint value);
 
 	[[nodiscard]] const bool isCompiled() const {return _isCompiled;};
 	[[nodiscard]] GLuint getProgramId() const {return _Id;};
